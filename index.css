@@ -1,0 +1,62 @@
+body {
+    background-image: url(./hand-painted-watercolor-background.jpg);
+}
+
+.tabla {
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px;
+    text-align: justify;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: blanchedalmond;
+    border-bottom: 2px solid rgb(173, 169, 163);
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+}
+
+.form-control {
+    background-color: rgb(248, 245, 239);
+    border-radius: 20px;
+    width: 371px;
+    height: 25px;
+}
+
+table {
+    width: 20px;
+    height: 60px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingreso {
+    display: inline-block;
+    width: 200px;
+    padding-left: 80px;
+}
+
+h1 {
+    text-align: center;
+    top: 10px;
+}
+
+.redesociales {
+    margin: 0px auto;
+    display: flex;
+    float: right;
+}
+
+.genial {
+    border-radius: 50%;
+    margin-left: 290px;
+}

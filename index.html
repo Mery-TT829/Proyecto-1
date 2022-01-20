@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="tabla">
+        <table>
+            <tbody>
+                <tr class="redesociales">
+                    <td class="ingreso" scope="row">
+                        <img src="./icono-facebook.png" width="50" height="50" />
+                        <a href="https://www.facebook.com/" target="_blank">Ingresar con facebook</a>
+                    </td class="ingreso">
+                    <td class="ingreso">
+                        <img src="./icono-instagram.png" width="50" height="50" />
+                        <a href="https://www.instagram.com" target="_blank">Ingresar con Instagram</a>
+                    </td>
+                    <td class="ingreso">
+                        <img src="./icono-gmail.png" width="50" height="50" />
+                        <a target="_blank" href="https://www.gmail.com">Ingresar con Gmail</a>
+                    </td>
+                    <td class="ingreso">
+                        <img src="./icono-twitter.png" width="50" height="50" />
+                        <a target="_blank" href="https://www.twitter.com">Ingresar con Twiitter</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="genial">
+        <img class="genial" src="./genial.jpg" width="150" height="150" />
+    </div><br>
+    <main class="formulario">
+        <form>
+            <h1 class="h3 mb-3 fw-normal">Iniciar Sesión</h1>
+
+            <div class="form-floating">
+                <label for="floatingInput">Dirección de correo</label>
+                <input type="email" class="form-control" id="floatingInput" placeholder="e-mail@ejemplo.com">
+            </div>
+            <div class="form-floating">
+                <label for="floatingPassword">Contraseña</label>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="contraseña">
+            </div>
+            <br>
+            <div class="checkbox mb-3">
+                <label>
+              <input type="checkbox" value="remember-me"> Recordar
+            </label>
+            </div><br>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
